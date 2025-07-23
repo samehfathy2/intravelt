@@ -14,12 +14,12 @@ description:
 keywords:
     "web tools, free tools, text rewriter, article spinner, robots.txt fetcher, sitemap analysis, SEO tools, content creation, content optimization, website tools, intravelt",
 	authors: [{ name: "WebTools Pro" }],
-	creator: "WebTools Pro",
+	creator: "WebTools Master",
 	openGraph: {
 		title: "WebTools Pro",
 		description:
-			"Powerful web tools for professionals. Text rewriter, robots.txt fetcher, and more. Fast, reliable, and free.",
-		url: "https://webtoolspro.com",
+    "Enhance your web presence with WebTools Master. Free Text Rewriter & Spinner, Robots.txt Fetching, and Sitemap Analysis for content creation and SEO optimization. Fast, reliable, and easy to use.",
+url: "https://www.intravelt.com/", // Updated URL
 		type: "website",
 		locale: "en_US",
 	},
