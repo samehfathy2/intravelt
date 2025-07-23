@@ -37,10 +37,11 @@ export default function AboutPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600'>
-								To democratize access to professional web
-								development tools by providing fast, reliable,
-								and completely free solutions that anyone can
-								use to enhance their digital projects.
+                                          We believe in democratizing access to professional web development tools.
+                                          Our mission is to provide fast, reliable, and completely free solutions
+                                          that empower anyone to enhance their digital projects
+                                          with ease.
+
 							</p>
 						</CardContent>
 					</Card>
