@@ -10,10 +10,10 @@ export default function TermsPage() {
 						Legal Information
 					</Badge>
 					<h1 className='text-4xl font-bold tracking-tight text-gray-900 mb-4'>
-						Terms of Service
+						Terms of Service for WebTools Master
 					</h1>
 					<p className='text-lg text-gray-600'>
-						Last updated: January 2024
+						Last Updated: July 23, 2025
 					</p>
 				</div>
 
@@ -25,12 +25,7 @@ export default function TermsPage() {
 									1. Acceptance of Terms
 								</h2>
 								<p className='text-gray-600 mb-4'>
-									By accessing and using WebTools Pro
-									(&quot;the Service&quot;), you accept and
-									agree to be bound by the terms and provision
-									of this agreement. If you do not agree to
-									abide by the above, please do not use this
-									service.
+									By accessing and using WebTools Master ("the Service"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by the above, please do not use this service.
 								</p>
 							</section>
 
@@ -39,13 +34,14 @@ export default function TermsPage() {
 									2. Description of Service
 								</h2>
 								<p className='text-gray-600 mb-4'>
-									WebTools Pro provides free web development
-									and content creation tools including but not
-									limited to text rewriting, robots.txt
-									fetching, and sitemap analysis. The service
-									is provided &quot;as is&quot; and we reserve
-									the right to modify or discontinue the
-									service at any time.
+									WebTools Master provides a suite of free web development and content creation tools. These tools include, but are not limited to:
+
+    Text Rewriter & Spinner
+
+    Robots.txt Fetching
+
+    Sitemap Analysis
+    The Service is provided "as is" and "as available." We reserve the right to modify, suspend, or discontinue the Service (or any part thereof) at any time, with or without notice, for any reason.
 								</p>
 							</section>
 
