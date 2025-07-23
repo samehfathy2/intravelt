@@ -16,7 +16,7 @@ keywords:
 	authors: [{ name: "WebTools Pro" }],
 	creator: "WebTools Master",
 	openGraph: {
-		title: "WebTools Pro",
+		title: "WebTools Master",
 		description:
     "Enhance your web presence with WebTools Master. Free Text Rewriter & Spinner, Robots.txt Fetching, and Sitemap Analysis for content creation and SEO optimization. Fast, reliable, and easy to use.",
 url: "https://www.intravelt.com/", // Updated URL
@@ -59,7 +59,7 @@ export default function RootLayout({
 				{/* add search console meta tag here */}
 				<meta
 					name='google-site-verification'
-					content='YOUR_GOOGLE_SITE_VERIFICATION_CODE'
+					content='V3pfjF6FlsO8sc3Ktr8dK2y_Imr7jUE3jPn7OYf7lHk'
 				/>
 				{/* Google Analytics */}
 				<script
