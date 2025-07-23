@@ -8,11 +8,11 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "WebTools Pro - Professional Web Development Tools",
-	description:
-		"Powerful web tools for professionals. Text rewriter, robots.txt fetcher, and more. Fast, reliable, and free.",
-	keywords:
-		"web tools, text rewriter, robots.txt, sitemap generator, web development, SEO tools, content optimization",
+	title: "WebTools Master - Free Text Rewriter, Robots.txt & Sitemap Tools",
+description:
+    "Enhance your web presence with WebTools Master. Free Text Rewriter & Spinner, Robots.txt Fetching, and Sitemap Analysis for content creation and SEO optimization. Fast, reliable, and easy to use.",
+keywords:
+    "web tools, free tools, text rewriter, article spinner, robots.txt fetcher, sitemap analysis, SEO tools, content creation, content optimization, website tools, intravelt",
 	authors: [{ name: "WebTools Pro" }],
 	creator: "WebTools Pro",
 	openGraph: {
