@@ -89,7 +89,7 @@ export default function AboutPage() {
 									Robots.txt & Sitemap Fetcher
 								</h3>
 								<p className='text-sm text-gray-600 mb-3'>
-									Instantly gain critical insights into any website's SEO configuration. Fetch and display their robots.txt and sitemap.xml files in a clear, readable format for optimal analysis.
+									Instantly gain critical insights into any website&apos;s SEO configuration. Fetch and display their robots.txt and sitemap.xml files in a clear, readable format for optimal analysis.
 								</p>
 								<ul className='text-xs text-gray-500 space-y-1'>
 									<li>• Quick domain analysis</li>
