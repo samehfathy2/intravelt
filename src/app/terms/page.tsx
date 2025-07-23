@@ -25,7 +25,7 @@ export default function TermsPage() {
                                     1. Acceptance of Terms
                                 </h2>
                                 <p className='text-gray-600 mb-4'>
-                                    By accessing and using WebTools Master ("the Service"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by the above, please do not use this service.
+                                    By accessing and using WebTools Master (&quot;the Service&quot;), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by the above, please do not use this service.
                                 </p>
                             </section>
 
@@ -37,12 +37,12 @@ export default function TermsPage() {
                                     WebTools Master provides a suite of free web development and content creation tools. These tools include, but are not limited to:
                                 </p>
                                 <ul className='list-disc list-inside text-gray-600 space-y-1 mb-4'>
-                                    <li>Text Rewriter & Spinner</li>
+                                    <li>Text Rewriter &amp; Spinner</li>
                                     <li>Robots.txt Fetching</li>
                                     <li>Sitemap Analysis</li>
                                 </ul>
                                 <p className='text-gray-600 mb-4'>
-                                    The Service is provided "as is" and "as available." We reserve the right to modify, suspend, or discontinue the Service (or any part thereof) at any time, with or without notice, for any reason.
+                                    The Service is provided &quot;as is&quot; and &quot;as available.&quot; We reserve the right to modify, suspend, or discontinue the Service (or any part thereof) at any time, with or without notice, for any reason.
                                 </p>
                             </section>
 
@@ -56,7 +56,7 @@ export default function TermsPage() {
                                 <ul className='list-disc list-inside text-gray-600 space-y-1 mb-4'>
                                     <li>Use the Service only for lawful purposes and in accordance with these Terms.</li>
                                     <li>Not use the Service in any way that violates any applicable federal, state, local, or international law or regulation.</li>
-                                    <li>Not engage in any conduct that restricts or inhibits anyone's use or enjoyment of the Service, or which, as determined by us, may harm WebTools Master or users of the Service or expose them to liability.</li>
+                                    <li>Not engage in any conduct that restricts or inhibits anyone&apos;s use or enjoyment of the Service, or which, as determined by us, may harm WebTools Master or users of the Service or expose them to liability.</li>
                                     <li>Not attempt to harm or disrupt the Service, including but not limited to introducing viruses, Trojan horses, worms, logic bombs, or other material that is malicious or technologically harmful.</li>
                                     <li>Not attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of the Service, the server on which the Service is stored, or any server, computer, or database connected to the Service.</li>
                                     <li>Respect intellectual property rights and not use the Service to infringe upon the intellectual property rights of others.</li>
@@ -86,7 +86,7 @@ export default function TermsPage() {
                                     6. Disclaimer of Warranties
                                 </h2>
                                 <p className='text-gray-600 mb-4'>
-                                    The Service is provided on an "as is" and "as available" basis, without any warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance. WebTools Master does not warrant that the Service will be uninterrupted, secure, or error-free; that defects will be corrected; or that the Service or the server that makes it available are free of viruses or other harmful components.
+                                    The Service is provided on an &quot;as is&quot; and &quot;as available&quot; basis, without any warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance. WebTools Master does not warrant that the Service will be uninterrupted, secure, or error-free; that defects will be corrected; or that the Service or the server that makes it available are free of viruses or other harmful components.
                                 </p>
                             </section>
 
