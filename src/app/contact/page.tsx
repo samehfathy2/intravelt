@@ -197,9 +197,9 @@ export default function ContactPage() {
 									Monday - Friday, 9AM - 6PM EST
 								</p>
 								<a
-									href='tel:+1-555-123-4567'
+									href='tel:+1-525-252-6258'
 									className='text-blue-600 hover:text-blue-700 font-medium'>
-									+1 (555) 123-4567
+									+1 (525) 252-6258
 								</a>
 							</CardContent>
 						</Card>
