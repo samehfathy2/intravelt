@@ -20,7 +20,7 @@ export default function AboutPage() {
 						WebTools Master: Elevate Your Digital Journey
 					</h1>
 					<p className='text-lg text-gray-600 max-w-2xl mx-auto'>
-						At WebTools Master, we're dedicated to empowering
+						At WebTools Master, we&apos;re dedicated to empowering
 						professionals and enthusiasts alike with high-quality, free web tools
 						that streamline workflows and dramatically boost productivity.
 
