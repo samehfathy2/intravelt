@@ -76,10 +76,8 @@ export default function RootLayout({
 					}}></script>
 
 				{/* Google AdSense */}
-				<script
-					async
-					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX'
-					crossOrigin='anonymous'></script>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6387676660368728"
+     crossorigin="anonymous"></script>
 			</head>
 			<body className={inter.className} suppressHydrationWarning>
 				<Header />
