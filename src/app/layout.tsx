@@ -69,12 +69,12 @@ export default function RootLayout({
                     name='msapplication-config'
                     content='/favicon/browserconfig.xml'
                 />
-                {/* Google Search Console Meta Tag (keep it here as it's a meta tag, not a script) */}
+                {/* Google Search Console Meta Tag (keep it here as it's a meta tag) */}
                 <meta
                     name='google-site-verification'
                     content='V3pfjF6FlsO8sc3Ktr8dK2y_Imr7jUE3jPn7OYf7lHk'
                 />
-                {/* Note: Google Analytics and AdSense scripts are now handled by next/script in the <body> */}
+                {/* All scripts (Analytics, AdSense) are moved to the <body> using next/script */}
             </head>
             <body className={inter.className} suppressHydrationWarning>
                 <Header />
@@ -100,7 +100,7 @@ export default function RootLayout({
                 <Script
                     async
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6387676660368728"
-                    crossOrigin="anonymous" // CORRECTED: This was the crucial fix for the type error
+                    crossOrigin="anonymous" // THIS IS THE FIX: 'crossOrigin' with capital 'O'
                     strategy="lazyOnload" // 'lazyOnload' is a good strategy for ad scripts
                 />
             </body>
