@@ -97,12 +97,8 @@ export default function RootLayout({
                 </Script>
 
                 {/* Google AdSense Script using next/script */}
-                <Script
-                    async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6387676660368728"
-                    crossOrigin="anonymous" // CORRECTED: Changed from 'crossorigin' to 'crossOrigin'
-                    strategy="lazyOnload" // 'lazyOnload' is often recommended for AdSense
-                />
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6387676660368728"
+     crossorigin="anonymous"></script>
             </body>
         </html>
     );
