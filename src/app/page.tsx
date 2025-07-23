@@ -16,7 +16,7 @@ export default function HomePage() {
               Tools That Power Your Web Projects
             </div>
             <h1 className="mt-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Advanced Tools for Web
+              Advanced Web Tools
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
                 {" "}
                 Development Professionals
