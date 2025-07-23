@@ -14,13 +14,15 @@ export default function AboutPage() {
 			<div className='container mx-auto px-4 max-w-4xl'>
 				<div className='text-center mb-12'>
 					<Badge className='mb-4 bg-gradient-to-r from-blue-600 to-purple-600'>
-						About WebTools Master
+						About WebTools Pro
 					</Badge>
 					<h1 className='text-4xl font-bold tracking-tight text-gray-900 mb-4'>
-						WebTools Master: Elevate Your Digital Journey
+						Professional Web Tools for Everyone
 					</h1>
 					<p className='text-lg text-gray-600 max-w-2xl mx-auto'>
-						At WebTools Master, we're dedicated to empowering professionals and enthusiasts alike with high-quality, free web tools that streamline workflows and dramatically boost productivity.
+						We are dedicated to providing high-quality, free web
+						tools that help professionals and enthusiasts streamline
+						their workflow and boost productivity.
 					</p>
 				</div>
 
@@ -34,7 +36,10 @@ export default function AboutPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600'>
-								We believe in democratizing access to professional web development tools. Our mission is to provide fast, reliable, and completely free solutions that empower anyone to enhance their digital projects with ease.
+								To democratize access to professional web
+								development tools by providing fast, reliable,
+								and completely free solutions that anyone can
+								use to enhance their digital projects.
 							</p>
 						</CardContent>
 					</Card>
@@ -48,7 +53,10 @@ export default function AboutPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600'>
-								To be the ultimate go-to platform for web professionals, offering efficient, user-friendly tools that save valuable time and significantly improve the quality of their work.
+								To become the go-to platform for web
+								professionals seeking efficient, user-friendly
+								tools that save time and improve the quality of
+								their work.
 							</p>
 						</CardContent>
 					</Card>
@@ -58,7 +66,8 @@ export default function AboutPage() {
 					<CardHeader>
 						<CardTitle>What We Offer</CardTitle>
 						<CardDescription>
-							Discover our comprehensive suite of cutting-edge web development and content creation tools designed for success:
+							A comprehensive suite of web development and content
+							creation tools
 						</CardDescription>
 					</CardHeader>
 					<CardContent>
@@ -68,7 +77,10 @@ export default function AboutPage() {
 									Text Rewriter & Spinner
 								</h3>
 								<p className='text-sm text-gray-600 mb-3'>
-									Transform your content with intelligence and precision. Our advanced algorithms, powered by the Datamuse API, ensure accurate, contextual rewrites.
+									Transform your content with intelligent
+									synonym replacement using advanced
+									algorithms and the Datamuse API for
+									accurate, contextual rewrites.
 								</p>
 								<ul className='text-xs text-gray-500 space-y-1'>
 									<li>• Intelligent synonym detection</li>
