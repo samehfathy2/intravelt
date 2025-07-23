@@ -55,10 +55,7 @@ export default function AboutPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600'>
-								To become the go-to platform for web
-								professionals seeking efficient, user-friendly
-								tools that save time and improve the quality of
-								their work.
+								To be the ultimate go-to platform for web professionals, offering efficient, user-friendly tools that save valuable time and significantly improve the quality of their work.
 							</p>
 						</CardContent>
 					</Card>
