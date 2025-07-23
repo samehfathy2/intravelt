@@ -69,10 +69,15 @@ export default function AboutPage() {
 									Text Rewriter & Spinner
 								</h3>
 								<p className='text-sm text-gray-600 mb-3'>
-									Transform your content with intelligent
-									synonym replacement using advanced
-									algorithms and the Datamuse API for
-									accurate, contextual rewrites.
+									Transform your content with intelligence and precision. Our advanced algorithms, powered by the Datamuse API, ensure accurate, contextual rewrites.
+
+    Intelligent synonym detection
+
+    Context-aware replacements
+
+    Preserve original meaning
+
+    Multiple variation options
 								</p>
 								<ul className='text-xs text-gray-500 space-y-1'>
 									<li>• Intelligent synonym detection</li>
