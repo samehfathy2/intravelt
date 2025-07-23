@@ -1,7 +1,7 @@
 import type React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script"; // Import the Script component
+import Script from "next/script"; // Crucial: Import the Script component
 
 import "./globals.css";
 import Header from "@/components/header";
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         "website tools",
         "intravelt",
     ],
-    authors: [{ name: "WebTools Master" }], // Changed from WebTools Pro
+    authors: [{ name: "WebTools Master" }],
     creator: "WebTools Master",
     openGraph: {
         title: "WebTools Master",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         },
     },
     appleWebApp: {
-        title: "WebTools Master", // Changed from WebTools Pro
+        title: "WebTools Master",
         capable: true,
         statusBarStyle: "default",
     },
@@ -63,18 +63,18 @@ export default function RootLayout({
     return (
         <html lang='en' suppressHydrationWarning>
             <head suppressHydrationWarning>
-                <meta name='application-name' content='WebTools Master' /> {/* Changed from WebTools Pro */}
+                <meta name='application-name' content='WebTools Master' />
                 <meta name='msapplication-TileColor' content='#ffffff' />
                 <meta
                     name='msapplication-config'
                     content='/favicon/browserconfig.xml'
                 />
-                {/* Google Search Console Meta Tag (keep it here) */}
+                {/* Google Search Console Meta Tag (keep it here as it's a meta tag, not a script) */}
                 <meta
                     name='google-site-verification'
                     content='V3pfjF6FlsO8sc3Ktr8dK2y_Imr7jUE3jPn7OYf7lHk'
                 />
-                {/* Note: Google Analytics and AdSense scripts are moved to the <body> */}
+                {/* Note: Google Analytics and AdSense scripts are now handled by next/script in the <body> */}
             </head>
             <body className={inter.className} suppressHydrationWarning>
                 <Header />
@@ -82,7 +82,7 @@ export default function RootLayout({
                 <Footer />
 
                 {/* Google Analytics Script using next/script */}
-                {/* IMPORTANT: Replace 'G-XXXXXXXXXX' with your actual Google Analytics Measurement ID */}
+                {/* IMPORTANT: Replace 'G-9W79M5JY32' with your actual Google Analytics Measurement ID */}
                 <Script
                     src='https://www.googletagmanager.com/gtag/js?id=G-9W79M5JY32'
                     strategy='afterInteractive' // Recommended for analytics
@@ -92,13 +92,17 @@ export default function RootLayout({
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', 'G-9W79M5JY32'); // Replace with your GA Measurement ID
+                        gtag('config', 'G-9W79M5JY32'); // Replace with your GA Measurement ID again
                     `}
                 </Script>
 
                 {/* Google AdSense Script using next/script */}
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6387676660368728"
-     crossorigin="anonymous"></script>
+                <Script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6387676660368728"
+                    crossOrigin="anonymous" // CORRECTED: This was the crucial fix for the type error
+                    strategy="lazyOnload" // 'lazyOnload' is a good strategy for ad scripts
+                />
             </body>
         </html>
     );
