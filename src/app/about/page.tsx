@@ -63,10 +63,9 @@ export default function AboutPage() {
 
 				<Card className='shadow-lg border-0 bg-white/80 backdrop-blur-sm mb-8'>
 					<CardHeader>
-						<CardTitle>What We Offer</CardTitle>
+						<CardTitle>What We Offer: Unleash Your Potential</CardTitle>
 						<CardDescription>
-							A comprehensive suite of web development and content
-							creation tools
+							Discover our comprehensive suite of cutting-edge web development and content creation tools designed for success:
 						</CardDescription>
 					</CardHeader>
 					<CardContent>
@@ -76,10 +75,7 @@ export default function AboutPage() {
 									Text Rewriter & Spinner
 								</h3>
 								<p className='text-sm text-gray-600 mb-3'>
-									Transform your content with intelligent
-									synonym replacement using advanced
-									algorithms and the Datamuse API for
-									accurate, contextual rewrites.
+									Transform your content with intelligence and precision. Our advanced algorithms, powered by the Datamuse API, ensure accurate, contextual rewrites.
 								</p>
 								<ul className='text-xs text-gray-500 space-y-1'>
 									<li>• Intelligent synonym detection</li>
