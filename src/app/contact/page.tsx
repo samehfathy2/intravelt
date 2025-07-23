@@ -213,9 +213,9 @@ export default function ContactPage() {
 							</CardHeader>
 							<CardContent>
 								<p className='text-sm text-gray-600'>
-									123 Tech Street
+									789 Digital Avenue, Floor 10, 
 									<br />
-									San Francisco, CA 94105
+									New York, NY 10001,
 									<br />
 									United States
 								</p>
