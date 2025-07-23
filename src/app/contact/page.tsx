@@ -178,9 +178,9 @@ export default function ContactPage() {
 									For general inquiries and support
 								</p>
 								<a
-									href='mailto:support@example.com'
+									href='mailto:contact@intravelt.com'
 									className='text-blue-600 hover:text-blue-700 font-medium'>
-									support@example.com
+									contact@intravelt.com
 								</a>
 							</CardContent>
 						</Card>
