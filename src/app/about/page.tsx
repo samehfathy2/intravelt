@@ -58,8 +58,7 @@ export default function AboutPage() {
 					<CardHeader>
 						<CardTitle>What We Offer</CardTitle>
 						<CardDescription>
-							A comprehensive suite of web development and content
-							creation tools
+							Discover our comprehensive suite of cutting-edge web development and content creation tools designed for success:
 						</CardDescription>
 					</CardHeader>
 					<CardContent>
