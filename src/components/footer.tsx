@@ -14,9 +14,7 @@ export default function Footer() {
               <span className="text-xl font-bold">WebTools Master</span>
             </Link>
             <p className="text-gray-400 max-w-md">
-              Professional web tools designed to streamline your workflow and boost productivity. Fast, reliable, and
-              completely free to use.
-            </p>
+Unlock the power of professional-grade web tools that supercharge your workflow and skyrocket your productivity. Lightning-fast, ultra-reliable, and completely free. Experience the next level of performance – no strings attached!            </p>
           </div>
 
           <div>
