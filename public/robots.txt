@@ -2,33 +2,34 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://webtoolspro.com/sitemap.xml
+Sitemap: https://www.intravelt.com/sitemap.xml
 
-# Disallow specific paths
+# Disallow specific paths (for all user-agents by default, then can be overridden)
 Disallow: /api/
 Disallow: /_next/
 Disallow: /static/
-
-# Crawl-delay in seconds
-Crawl-delay: 10
 
 # Specific rules for Googlebot
 User-agent: Googlebot
-Allow: /
+Allow: / # Re-allowing explicitly for Googlebot if there were global disallows
 Disallow: /api/
 Disallow: /_next/
 Disallow: /static/
 
+# Specific rules for AdsBot-Google (crucial for AdSense)
+User-agent: AdsBot-Google
+Allow: /
+
 # Specific rules for Bingbot
 User-agent: Bingbot
-Allow: /
+Allow: / # Re-allowing explicitly for Bingbot
 Disallow: /api/
 Disallow: /_next/
 Disallow: /static/
 
 # Specific rules for Yandex
 User-agent: Yandex
-Allow: /
+Allow: / # Re-allowing explicitly for Yandex
 Disallow: /api/
 Disallow: /_next/
 Disallow: /static/

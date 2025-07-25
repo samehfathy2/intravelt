@@ -13,18 +13,17 @@ export default function HomePage() {
           <div className="text-center">
             <div className="inline-flex items-center rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-4 py-2 text-sm font-medium text-white shadow-lg">
               <Sparkles className="mr-2 h-4 w-4" />
-              Professional Web Tools
+              Tools That Power Your Web Projects
             </div>
             <h1 className="mt-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Powerful Tools for
+              Advanced Tools for Web
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
                 {" "}
-                Web Professionals
+                Development Professionals
               </span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
-              Streamline your workflow with our collection of essential web development and content creation tools.
-              Fast, reliable, and completely free to use.
+           Streamline your workflow with our essential tools for web development and content creation. Fast, reliable, and completely free to use.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button

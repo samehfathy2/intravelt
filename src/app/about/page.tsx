@@ -14,15 +14,16 @@ export default function AboutPage() {
 			<div className='container mx-auto px-4 max-w-4xl'>
 				<div className='text-center mb-12'>
 					<Badge className='mb-4 bg-gradient-to-r from-blue-600 to-purple-600'>
-						About WebTools Pro
+						About WebTools Master
 					</Badge>
 					<h1 className='text-4xl font-bold tracking-tight text-gray-900 mb-4'>
-						Professional Web Tools for Everyone
+						WebTools Master: Elevate Your Digital Journey
 					</h1>
 					<p className='text-lg text-gray-600 max-w-2xl mx-auto'>
-						We are dedicated to providing high-quality, free web
-						tools that help professionals and enthusiasts streamline
-						their workflow and boost productivity.
+						At WebTools Master, we&apos;re dedicated to empowering
+						professionals and enthusiasts alike with high-quality, free web tools
+						that streamline workflows and dramatically boost productivity.
+
 					</p>
 				</div>
 
@@ -36,10 +37,11 @@ export default function AboutPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600'>
-								To democratize access to professional web
-								development tools by providing fast, reliable,
-								and completely free solutions that anyone can
-								use to enhance their digital projects.
+                                          We believe in democratizing access to professional web development tools.
+                                          Our mission is to provide fast, reliable, and completely free solutions
+                                          that empower anyone to enhance their digital projects
+                                          with ease.
+
 							</p>
 						</CardContent>
 					</Card>
@@ -53,10 +55,7 @@ export default function AboutPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600'>
-								To become the go-to platform for web
-								professionals seeking efficient, user-friendly
-								tools that save time and improve the quality of
-								their work.
+								To be the ultimate go-to platform for web professionals, offering efficient, user-friendly tools that save valuable time and significantly improve the quality of their work.
 							</p>
 						</CardContent>
 					</Card>
@@ -64,10 +63,9 @@ export default function AboutPage() {
 
 				<Card className='shadow-lg border-0 bg-white/80 backdrop-blur-sm mb-8'>
 					<CardHeader>
-						<CardTitle>What We Offer</CardTitle>
+						<CardTitle>What We Offer: Unleash Your Potential</CardTitle>
 						<CardDescription>
-							A comprehensive suite of web development and content
-							creation tools
+							Discover our comprehensive suite of cutting-edge web development and content creation tools designed for success:
 						</CardDescription>
 					</CardHeader>
 					<CardContent>
@@ -77,10 +75,7 @@ export default function AboutPage() {
 									Text Rewriter & Spinner
 								</h3>
 								<p className='text-sm text-gray-600 mb-3'>
-									Transform your content with intelligent
-									synonym replacement using advanced
-									algorithms and the Datamuse API for
-									accurate, contextual rewrites.
+									Transform your content with intelligence and precision. Our advanced algorithms, powered by the Datamuse API, ensure accurate, contextual rewrites.
 								</p>
 								<ul className='text-xs text-gray-500 space-y-1'>
 									<li>• Intelligent synonym detection</li>
@@ -94,10 +89,7 @@ export default function AboutPage() {
 									Robots.txt & Sitemap Fetcher
 								</h3>
 								<p className='text-sm text-gray-600 mb-3'>
-									Instantly analyze any website&apos;s SEO
-									configuration by fetching and displaying
-									their robots.txt and sitemap.xml files in a
-									readable format.
+									Instantly gain critical insights into any website&apos;s SEO configuration. Fetch and display their robots.txt and sitemap.xml files in a clear, readable format for optimal analysis.
 								</p>
 								<ul className='text-xs text-gray-500 space-y-1'>
 									<li>• Quick domain analysis</li>
